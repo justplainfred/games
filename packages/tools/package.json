@@ -1,5 +1,5 @@
 {
-  "name": "tools",
+  "name": "@r-t-p/tools",
   "version": "0.0.1-alpha.0",
   "description": "miscellaneous tools",
   "author": "justplainfred <justplainfred@gmail.com>",
@@ -31,5 +31,6 @@
       "**/__tests__/**/*test.ts",
       "**/?(*.)+(spec|test).ts"
     ]
-  }
+  },
+  "gitHead": "fd8fe17d4e85e54d274fcd60895579c034f3116d"
 }
