@@ -1,6 +1,6 @@
 {
   "name": "loop",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "a game loop",
   "author": "justplainfred <justplainfred@gmail.com>",
   "homepage": "",
@@ -12,8 +12,8 @@
     "test": "__tests__"
   },
   "dependencies": {
-    "tools": "*",
-    "render": "*"
+    "render": "^0.0.1-alpha.0",
+    "tools": "^0.0.1-alpha.0"
   },
   "files": [
     "dist"
@@ -23,17 +23,17 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^29.5.0",
-    "typescript": "^5.0.4",
     "@types/jest": "^29.5.0",
-    "ts-jest": "^29.1.0"
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
   },
   "jest": {
-      "preset": "ts-jest",
-      "testEnvironment": "node",
-      "testMatch": [
-        "**/__tests__/**/*test.ts",
-        "**/?(*.)+(spec|test).ts"
-      ]
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*test.ts",
+      "**/?(*.)+(spec|test).ts"
+    ]
   }
 }
