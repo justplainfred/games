@@ -5,5 +5,9 @@
   ],
   "devDependencies": {
     "lerna": "^6.6.2"
+  },
+  "scripts": {
+    "prepack": "npx lerna run test",
+    "publish": "npx lerna publish"
   }
 }
