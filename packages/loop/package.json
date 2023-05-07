@@ -1,0 +1,39 @@
+{
+  "name": "loop",
+  "version": "0.0.0",
+  "description": "a game loop",
+  "author": "justplainfred <justplainfred@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/loop.js",
+  "types": "dist/loop.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "dependencies": {
+    "tools": "*",
+    "render": "*"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "typescript": "^5.0.4",
+    "@types/jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  },
+  "jest": {
+      "preset": "ts-jest",
+      "testEnvironment": "node",
+      "testMatch": [
+        "**/__tests__/**/*test.ts",
+        "**/?(*.)+(spec|test).ts"
+      ]
+  }
+}

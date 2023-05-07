@@ -1,0 +1,10 @@
+{
+  "name": "@r-t-p/games",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  }
+}

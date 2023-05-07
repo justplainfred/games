@@ -1,0 +1,38 @@
+{
+  "name": "render",
+  "version": "0.0.0",
+  "description": "This is a render tool",
+  "author": "justplainfred <justplainfred@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/render.js",
+  "types": "dist/render.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "tools": "*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "typescript": "^5.0.4",
+    "@types/jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  },
+  "jest": {
+      "preset": "ts-jest",
+      "testEnvironment": "node",
+      "testMatch": [
+        "**/__tests__/**/*test.ts",
+        "**/?(*.)+(spec|test).ts"
+      ]
+  }
+}
