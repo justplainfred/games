@@ -1,6 +1,5 @@
 {
   "name": "@r-t-p/games",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
