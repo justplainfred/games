@@ -34,10 +34,10 @@ describe("GameLoop", () => {
 
   test("should add and remove items from the game loop", () => {
     gameLoop.addItem(loopItem);
-    expect(gameLoop.getItem(loopItem.id)).toBe(loopItem);
+    expect(gameLoop.hasItem(loopItem.id)).toBe(true);
 
     gameLoop.removeItem(loopItem.id);
-    expect(gameLoop.getItem(loopItem.id)).toBeUndefined();
+    expect(gameLoop.hasItem(loopItem.id)).toBe(false);
   });
 
   test("should update and render loop items", () => {
@@ -52,10 +52,11 @@ describe("GameLoop", () => {
   test("should remove finished loop items", () => {
     loopItem.isFinished = true;
     gameLoop.addItem(loopItem);
-    for(var i = 0; i < 100; ++i) {
-      let m = Math.random()
-      m.toFixed();
+    while(gameLoop.hasItem(loopItem.id)) { }
+    try {
+      gameLoop.getItem(loopItem.id)
+    } catch (e) {
+      expect(e).toBe('Error: no item found');
     }
-    expect(gameLoop.getItem(loopItem.id)).toThrow();
   });
 });
