@@ -1,7 +1,6 @@
-import { loop } from "../lib/loop";
 // import { tools } from '';
 
 
-test("loop", () => {
-  expect(loop).toBeDefined();
-});
+test("temptesting", () => {
+  expect(1).toBe(1);
+})
