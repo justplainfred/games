@@ -30,11 +30,14 @@ export class Loop {
   public getItem(id: string): Item {
     let item = this.items.find(i => i.id === id);
     if (item === undefined) {
-      let err = new Error('item not found');
-      console.log(err)
-      throw err;
+      throw "Error: no item found";
     }
     return item;
+  }
+
+  public hasItem(id: string):boolean {
+    let item = this.items.find(i => i.id === id);
+    return item !== undefined;
   }
   
   public removeItem(id: string): void {

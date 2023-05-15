@@ -1,6 +1,6 @@
 {
   "name": "@r-t-p/loop",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.6-alpha.0",
   "description": "a game loop",
   "author": "justplainfred <justplainfred@gmail.com>",
   "homepage": "",
@@ -36,5 +36,5 @@
       "**/?(*.)+(spec|test).ts"
     ]
   },
-  "gitHead": "714a93c8958a4a3698061269f625bb6a84aa200b"
+  "gitHead": "b9b18ca9a5d30ccf5e95a900a2038182b19babe3"
 }
