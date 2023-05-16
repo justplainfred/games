@@ -5,8 +5,8 @@
   "author": "justplainfred <justplainfred@gmail.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "dist/loop.js",
-  "types": "dist/loop.d.ts",
+  "main": "dist/lib/loop.js",
+  "types": "dist/lib/loop.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

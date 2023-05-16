@@ -1,5 +1,9 @@
-import { tools } from "./tools";
+import { Point } from "./tools";
 
 test("tools", () => {
-  expect(tools).toBeDefined();
+  let p: Point = {
+    x: 1,
+    y: 1
+  };
+  expect(p).toBeDefined();
 })

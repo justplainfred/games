@@ -1,3 +1,4 @@
-export function tools() {
-  return 'Hello from tools';
+export type Point = {
+  x: number;
+  y: number
 }

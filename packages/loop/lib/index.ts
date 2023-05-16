@@ -3,8 +3,8 @@ import { Render } from "../private/external";
 
 export {
   Item,
-  Render,
-  CreateLoop
+  Loop,
+  Render
 }
 
 function CreateLoop (renderer: Render): Loop {

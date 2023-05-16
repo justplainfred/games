@@ -5,8 +5,8 @@
   "author": "justplainfred <justplainfred@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "dist/tools.js",
-  "types": "dist/tools.d.ts",
+  "main": "dist/lib/tools.js",
+  "types": "dist/lib/tools.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
